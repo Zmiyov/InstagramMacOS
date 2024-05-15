@@ -11,6 +11,10 @@
 		A5B89E472BF4CCEC00E9D186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E462BF4CCEC00E9D186 /* ContentView.swift */; };
 		A5B89E492BF4CCED00E9D186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B89E482BF4CCED00E9D186 /* Assets.xcassets */; };
 		A5B89E4C2BF4CCED00E9D186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B89E4B2BF4CCED00E9D186 /* Preview Assets.xcassets */; };
+		A5B89E552BF4CD6B00E9D186 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E542BF4CD6B00E9D186 /* Home.swift */; };
+		A5B89E572BF4CE3800E9D186 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E562BF4CE3800E9D186 /* BlurWindow.swift */; };
+		A5B89E592BF4D34B00E9D186 /* billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B89E582BF4D34B00E9D186 /* billabong.ttf */; };
+		A5B89E5E2BF4DE2E00E9D186 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E5D2BF4DE2E00E9D186 /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,11 @@
 		A5B89E482BF4CCED00E9D186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5B89E4B2BF4CCED00E9D186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5B89E4D2BF4CCED00E9D186 /* InstagramMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InstagramMacOS.entitlements; sourceTree = "<group>"; };
+		A5B89E542BF4CD6B00E9D186 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A5B89E562BF4CE3800E9D186 /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		A5B89E582BF4D34B00E9D186 /* billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = billabong.ttf; sourceTree = "<group>"; };
+		A5B89E5A2BF4D73100E9D186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5B89E5D2BF4DE2E00E9D186 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +61,12 @@
 		A5B89E432BF4CCEC00E9D186 /* InstagramMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				A5B89E582BF4D34B00E9D186 /* billabong.ttf */,
+				A5B89E532BF4CD5600E9D186 /* View */,
 				A5B89E442BF4CCEC00E9D186 /* InstagramMacOSApp.swift */,
 				A5B89E462BF4CCEC00E9D186 /* ContentView.swift */,
 				A5B89E482BF4CCED00E9D186 /* Assets.xcassets */,
+				A5B89E5A2BF4D73100E9D186 /* Info.plist */,
 				A5B89E4D2BF4CCED00E9D186 /* InstagramMacOS.entitlements */,
 				A5B89E4A2BF4CCED00E9D186 /* Preview Content */,
 			);
@@ -67,6 +79,16 @@
 				A5B89E4B2BF4CCED00E9D186 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5B89E532BF4CD5600E9D186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89E542BF4CD6B00E9D186 /* Home.swift */,
+				A5B89E5D2BF4DE2E00E9D186 /* TabButton.swift */,
+				A5B89E562BF4CE3800E9D186 /* BlurWindow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +151,7 @@
 			files = (
 				A5B89E4C2BF4CCED00E9D186 /* Preview Assets.xcassets in Resources */,
 				A5B89E492BF4CCED00E9D186 /* Assets.xcassets in Resources */,
+				A5B89E592BF4D34B00E9D186 /* billabong.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B89E572BF4CE3800E9D186 /* BlurWindow.swift in Sources */,
 				A5B89E472BF4CCEC00E9D186 /* ContentView.swift in Sources */,
+				A5B89E552BF4CD6B00E9D186 /* Home.swift in Sources */,
+				A5B89E5E2BF4DE2E00E9D186 /* TabButton.swift in Sources */,
 				A5B89E452BF4CCEC00E9D186 /* InstagramMacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +305,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramMacOS/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +333,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramMacOS/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

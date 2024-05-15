@@ -13,5 +13,6 @@ struct InstagramMacOSApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
