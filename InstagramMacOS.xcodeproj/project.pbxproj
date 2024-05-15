@@ -15,6 +15,9 @@
 		A5B89E572BF4CE3800E9D186 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E562BF4CE3800E9D186 /* BlurWindow.swift */; };
 		A5B89E592BF4D34B00E9D186 /* billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B89E582BF4D34B00E9D186 /* billabong.ttf */; };
 		A5B89E5E2BF4DE2E00E9D186 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E5D2BF4DE2E00E9D186 /* TabButton.swift */; };
+		A5B89E602BF4E4D600E9D186 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E5F2BF4E4D600E9D186 /* SideView.swift */; };
+		A5B89E622BF4F0B200E9D186 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E612BF4F0B200E9D186 /* PostView.swift */; };
+		A5B89E642BF4F66A00E9D186 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89E632BF4F66A00E9D186 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		A5B89E582BF4D34B00E9D186 /* billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = billabong.ttf; sourceTree = "<group>"; };
 		A5B89E5A2BF4D73100E9D186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A5B89E5D2BF4DE2E00E9D186 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		A5B89E5F2BF4E4D600E9D186 /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
+		A5B89E612BF4F0B200E9D186 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		A5B89E632BF4F66A00E9D186 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				A5B89E542BF4CD6B00E9D186 /* Home.swift */,
+				A5B89E612BF4F0B200E9D186 /* PostView.swift */,
+				A5B89E5F2BF4E4D600E9D186 /* SideView.swift */,
 				A5B89E5D2BF4DE2E00E9D186 /* TabButton.swift */,
 				A5B89E562BF4CE3800E9D186 /* BlurWindow.swift */,
+				A5B89E632BF4F66A00E9D186 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B89E622BF4F0B200E9D186 /* PostView.swift in Sources */,
+				A5B89E642BF4F66A00E9D186 /* MainView.swift in Sources */,
 				A5B89E572BF4CE3800E9D186 /* BlurWindow.swift in Sources */,
 				A5B89E472BF4CCEC00E9D186 /* ContentView.swift in Sources */,
 				A5B89E552BF4CD6B00E9D186 /* Home.swift in Sources */,
+				A5B89E602BF4E4D600E9D186 /* SideView.swift in Sources */,
 				A5B89E5E2BF4DE2E00E9D186 /* TabButton.swift in Sources */,
 				A5B89E452BF4CCEC00E9D186 /* InstagramMacOSApp.swift in Sources */,
 			);

@@ -28,6 +28,8 @@ struct TabButton: View {
                 Image(systemName: image)
                     .font(.system(size: 24))
                     .foregroundStyle(selected == title ? .orange : .gray)
+                    .frame(width: 30)
+                
                 Text(title)
                     .fontWeight(.semibold)
                     .foregroundStyle(.gray)
@@ -52,6 +54,8 @@ struct TabButton: View {
                 
             }
             .padding(.leading)
+            .padding(.top, 5)
+            .contentShape(Rectangle())
         })
         .buttonStyle(PlainButtonStyle())
     }
